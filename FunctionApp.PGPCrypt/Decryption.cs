@@ -28,10 +28,10 @@ namespace FunctionApp.PGPCrypt
             log.LogInformation("C# HTTP trigger function processed a request.");
 
             string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
-            var encryptedData = await _cryption.DecryptAsync(requestBody);
+            var decryptedData = await _cryption.DecryptAsync(requestBody);
             return requestBody != null
-                ? (ActionResult)new OkObjectResult(encryptedData)
-                : new BadRequestObjectResult("Please pass a name on the query string or in the request body");
+                ? (ActionResult)new OkObjectResult(decryptedData)
+                : new BadRequestObjectResult("body is empty");
         }
 
     }

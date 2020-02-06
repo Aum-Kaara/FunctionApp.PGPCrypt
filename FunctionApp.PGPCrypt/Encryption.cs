@@ -31,7 +31,7 @@ namespace FunctionApp.PGPCrypt
             var encryptedData = await _cryption.EncryptAsync(requestBody);
             return requestBody != null
                 ? (ActionResult)new OkObjectResult(encryptedData)
-                : new BadRequestObjectResult("Please pass a name on the query string or in the request body");
+                : new BadRequestObjectResult("body is empty");
         }
 
     }
