@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace FunctionApp.PGPCrypt.Service
 {
-    class Cryption : ICryption
+    public class Cryption : ICryption
     {
 
         private readonly IConfigurationRoot _config;

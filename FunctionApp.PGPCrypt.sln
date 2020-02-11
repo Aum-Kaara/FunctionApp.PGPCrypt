@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp.PGPCrypt", "FunctionApp.PGPCrypt\FunctionApp.PGPCrypt.csproj", "{D1A69BB1-F482-41B5-BAB7-7DA4A5303685}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionApp.PGPCrypt", "FunctionApp.PGPCrypt\FunctionApp.PGPCrypt.csproj", "{D1A69BB1-F482-41B5-BAB7-7DA4A5303685}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Util", "Util", "{1A2072FA-6C6B-431A-94DC-A94022DC0D5C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Util", "Util\Util.csproj", "{784F4232-9914-417F-9871-D23E4363257D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp.PGPCrypt.Tests", "FunctionApp.PGPCrypt.Tests\FunctionApp.PGPCrypt.Tests.csproj", "{F5BE9112-57CA-4473-B45C-77727DBF93CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{784F4232-9914-417F-9871-D23E4363257D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{784F4232-9914-417F-9871-D23E4363257D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{784F4232-9914-417F-9871-D23E4363257D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5BE9112-57CA-4473-B45C-77727DBF93CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BE9112-57CA-4473-B45C-77727DBF93CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5BE9112-57CA-4473-B45C-77727DBF93CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BE9112-57CA-4473-B45C-77727DBF93CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
